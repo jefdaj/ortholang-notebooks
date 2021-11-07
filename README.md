@@ -4,8 +4,7 @@ ortholang-notebooks
 An example of how to post reproducible [OrthoLang][ortholang] notebooks
 using [Jupyter][jupyter] and [Nix][nix].
 
-Explore the [tutorial](./tutorial/) and [examples](./examples/) on Github,
-or run them yourself like this:
+Explore the notebooks above on Github, or run them yourself like this:
 
 ~~~{ .bash }
 # install the Nix package manager (Mac or Linux)
