@@ -1,7 +1,8 @@
 ortholang-notebooks
 ===================
 
-An example of how to post reproducible Jupyter notebooks containing OrthoLang code.
+An example of how to post reproducible [OrthoLang][ortholang] notebooks
+using [Jupyter][jupyter] and [Nix][nix].
 
 Explore the [tutorial](./tutorial/) and [examples](./examples/) on Github,
 or run them yourself like this:
@@ -17,3 +18,7 @@ git clone https://github.com/jefdaj/ortholang-notebooks
 cd ortholang-notebooks
 nix-shell --command "jupyter lab"
 ~~~
+
+[jupyter]: https://jupyter.org/
+[nix]: https://nixos.org/nix
+[ortholang]: https://ortholang.pmb.berkeley.edu
