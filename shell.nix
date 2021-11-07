@@ -17,13 +17,13 @@ let
     packages = p: with p; [ p.tidyverse ];
   };
 
-  # you can add a name, but there aren't packages like in python or R
-  ortholang = jupyter.kernels.ortholangKernel {
-    name = "pinned 0.9.5";
-  };
+  # you can optionally add your own name,
+  # but there aren't packages like in python or R
+  ortholang = jupyter.kernels.ortholangKernel {};
 
   jupyterEnvironment = jupyter.jupyterlabWith {
     kernels = [ python r ortholang ];
   };
+
 in
   jupyterEnvironment.env

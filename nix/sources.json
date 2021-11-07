@@ -5,10 +5,10 @@
         "homepage": "",
         "owner": "jefdaj",
         "repo": "jupyterwith-ortholang",
-        "rev": "1736c9b072db78bf9479deeb08fc59cf19c52e3c",
-        "sha256": "125f5nwn3wypbi1s4nfylysbgkzh9kizf180072bv7qrafc8pyyn",
+        "rev": "7d56fc7a55749d90455232eb0608fe510e99d6fc",
+        "sha256": "1kd9jgjjz81pknn4gj70246shp3jf0fqbwxwh7qp0j94k1vk1sf7",
         "type": "tarball",
-        "url": "https://github.com/jefdaj/jupyterwith-ortholang/archive/1736c9b072db78bf9479deeb08fc59cf19c52e3c.tar.gz",
+        "url": "https://github.com/jefdaj/jupyterwith-ortholang/archive/7d56fc7a55749d90455232eb0608fe510e99d6fc.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "niv": {
@@ -21,42 +21,6 @@
         "sha256": "17mirpsx5wyw262fpsd6n6m47jcgw8k2bwcp1iwdnrlzy4dhcgqh",
         "type": "tarball",
         "url": "https://github.com/nmattia/niv/archive/65a61b147f307d24bfd0a5cd56ce7d7b7cc61d2e.tar.gz",
-        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
-    },
-    "nixpkgs": {
-        "branch": "release-21.05",
-        "description": "Nix Packages collection",
-        "homepage": "",
-        "owner": "NixOS",
-        "repo": "nixpkgs",
-        "rev": "5c02380de3951d0237807c16eb19873cb3c5f75d",
-        "sha256": "021ymgnxf84phgi0j1ryi4nxq3qivbrhf374sqv35xq12z03k50m",
-        "type": "tarball",
-        "url": "https://github.com/NixOS/nixpkgs/archive/5c02380de3951d0237807c16eb19873cb3c5f75d.tar.gz",
-        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
-    },
-    "ortholang": {
-        "branch": "master",
-        "description": "Short, reproducible phylogenomic cuts",
-        "homepage": null,
-        "owner": "jefdaj",
-        "repo": "ortholang",
-        "rev": "d62155658fb52b9cba2f9cc3b77eb66c88e1c009",
-        "sha256": "01mb8yasj6zqfck9pl0x0dxbwqan1p5sf7wrcsc8a2bapnslwpm8",
-        "type": "tarball",
-        "url": "https://github.com/jefdaj/ortholang/archive/d62155658fb52b9cba2f9cc3b77eb66c88e1c009.tar.gz",
-        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
-    },
-    "ortholang_kernel": {
-        "branch": "master",
-        "description": "A Jupyter kernel for OrthoLang.",
-        "homepage": null,
-        "owner": "jefdaj",
-        "repo": "ortholang_kernel",
-        "rev": "ea88cfa12f9f409fafb2f44047bdff091f32570b",
-        "sha256": "1rci5lvwsh1k3gysnsnhasgb17lx3jg9qiyy4qvpzbhypnf98cbh",
-        "type": "tarball",
-        "url": "https://github.com/jefdaj/ortholang_kernel/archive/ea88cfa12f9f409fafb2f44047bdff091f32570b.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     }
 }
