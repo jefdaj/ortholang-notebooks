@@ -18,8 +18,8 @@ cd ortholang-notebooks
 nix-shell --command "jupyter lab"
 ~~~
 
-To write and publish your own notebooks, you should only need to copy and paste
-these files into your own repository:
+To write and publish your own OrthoLang work, you should only need to copy and
+paste these files into your own repository:
 
 ~~~
 shell.nix
@@ -27,6 +27,8 @@ nix
 ├── sources.json
 └── sources.nix
 ~~~
+
+Alternatively, fork this one and edit/delete my notebooks.
 
 Happy sciencing!
 
