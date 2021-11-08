@@ -1,10 +1,10 @@
-ortholang-notebooks
+OrthoLang Notebooks
 ===================
 
 An example of how to publish reproducible [OrthoLang][ortholang] notebooks
 using [Nix][nix] and [jupyterWith][jupyterwith].
 
-Explore the tutorial notebooks above on Github, or run them yourself like this:
+Explore the tutorial notebooks above on Github, or run them yourself:
 
 ~~~{ .bash }
 # install the Nix package manager (Mac or Linux)
