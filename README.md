@@ -28,9 +28,6 @@ nix
 └── sources.nix
 ~~~
 
-You can run `niv update` to update the Nix code, and if something breaks just
-checkout the previous `nix/sources.json` to undo the update.
-
 Happy sciencing!
 
 [jupyter]: https://jupyter.org/
