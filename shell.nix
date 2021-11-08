@@ -10,22 +10,21 @@ let
 
   # optional Python kernel. uncomment below to use it
   python = jupyter.kernels.iPythonWith {
-    name = "shell.nix";
+    name = "my-python-kernel";
     packages = p: with p; [ numpy ];
   };
 
   # optional R kernel. uncomment below to use it
   r = jupyter.kernels.iRWith {
-    name = "shell.nix";
+    name = "my-R-kernel";
     packages = p: with p; [ p.tidyverse ];
   };
 
   jupyterEnvironment = jupyter.jupyterlabWith {
 
-    # edit the kernels line to include the kernels you want:
-    # kernels = [ ortholang python r ortholang ];
+    # remove any kernels you don't want here for a faster build:
+    kernels = [ ortholang python r ];
 
-    kernels = [ ortholang ];
   };
 
 in
