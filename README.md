@@ -2,7 +2,7 @@ ortholang-notebooks
 ===================
 
 An example of how to publish reproducible [OrthoLang][ortholang] notebooks
-using [Jupyter][jupyter] and [Nix][nix].
+using [Nix][nix] and [jupyterWith][jupyterwith].
 
 Explore the tutorial notebooks above on Github, or run them yourself like this:
 
@@ -28,10 +28,10 @@ nix
 └── sources.nix
 ~~~
 
-Alternatively, fork this repository and edit/delete my notebooks.
+Alternatively, fork this one and edit/delete my notebooks.
 
 Happy sciencing!
 
-[jupyter]: https://jupyter.org/
+[jupyterwith]: https://github.com/tweag/jupyterWith
 [nix]: https://nixos.org/nix
 [ortholang]: https://ortholang.pmb.berkeley.edu
