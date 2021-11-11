@@ -11,13 +11,19 @@ let
   # optional Python kernel. uncomment below to use it
   python = jupyter.kernels.iPythonWith {
     name = "my-python-kernel";
-    packages = p: with p; [ numpy ];
+    packages = p: with p; [
+      # add python packages here
+      numpy
+    ];
   };
 
   # optional R kernel. uncomment below to use it
   r = jupyter.kernels.iRWith {
     name = "my-R-kernel";
-    packages = p: with p; [ tidyverse ];
+    packages = p: with p; [
+      # add R packages here
+      tidyverse
+    ];
   };
 
   jupyterEnvironment = jupyter.jupyterlabWith {
