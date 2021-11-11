@@ -22,7 +22,7 @@ cd ortholang-notebooks
 nix-shell --command "jupyter lab"
 ~~~
 
-To write and publish your own OrthoLang, R, and/or Python notebooks you should
+To write and publish your own OrthoLang notebooks you should
 only need to copy and paste these files into a new repository:
 
 ~~~
@@ -34,8 +34,8 @@ nix
 
 Alternatively, fork this one and edit/delete my notebooks.
 
-Note: `shell.nix` includes code for running R and Python notebooks too,
-but I have them commented out near the bottom to speed up the default build.
+Note: `shell.nix` includes code for R and Python notebooks too,
+but I have them commented out to speed up the default build.
 
 Happy sciencing!
 
