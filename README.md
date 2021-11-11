@@ -34,7 +34,7 @@ nix
 
 Alternatively, fork this one and edit/delete my notebooks.
 
-Note: `shell.nix` includes code for R and Python notebooks too,
+Note: [shell.nix](./shell.nix) includes code for R and Python notebooks too,
 but I have them commented out to speed up the default build.
 
 Happy sciencing!

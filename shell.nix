@@ -1,4 +1,4 @@
-# Example of a Jupyter server with OrthoLang 0.9.5
+# Example of a Jupyter server with OrthoLang 0.10.1
 # Usage: nix-shell --command 'jupyter lab'
 
 let
