@@ -4,9 +4,9 @@ OrthoLang Notebooks
 An example of how to publish reproducible [OrthoLang][ortholang] notebooks
 using [Nix][nix] and [jupyterWith][jupyterwith].
 
-Explore the static example and tutorial notebooks rendered on Github above,
-or spin up the interactive versions on your computer. You should be able to exactly
-reproduce my Jupyter environment like this:
+Explore the static notebooks above rendered by Github, or spin up live versions
+on your computer. You should be able to exactly reproduce my Jupyter
+environment like this:
 
 ~~~{ .bash }
 # install the Nix package manager (Mac or Linux)
