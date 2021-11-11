@@ -10,6 +10,10 @@ Explore the tutorial notebooks above on Github, or run them yourself:
 # install the Nix package manager (Mac or Linux)
 curl -L https://nixos.org/nix/install | sh
 
+# optional: use my binary cache to skip building everything yourself
+nix-env -f '<nixpkgs>' -iA cachix
+cachix use jefdaj
+
 # download this code
 git clone https://github.com/jefdaj/ortholang-notebooks
 
@@ -29,6 +33,9 @@ nix
 ~~~
 
 Alternatively, fork this one and edit/delete my notebooks.
+
+Note: `shell.nix` includes code for running R and Python notebooks too,
+but I have them commented out near the bottom to speed up the default build.
 
 Happy sciencing!
 

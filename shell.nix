@@ -17,13 +17,14 @@ let
   # optional R kernel. uncomment below to use it
   r = jupyter.kernels.iRWith {
     name = "my-R-kernel";
-    packages = p: with p; [ p.tidyverse ];
+    packages = p: with p; [ tidyverse ];
   };
 
   jupyterEnvironment = jupyter.jupyterlabWith {
 
-    # remove any kernels you don't want here for a faster build:
-    kernels = [ ortholang python r ];
+    # add python and r kernels here if you want them:
+    # kernels = [ ortholang python r ];
+    kernels = [ ortholang ];
 
   };
 
