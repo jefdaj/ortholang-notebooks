@@ -10,7 +10,7 @@ Explore the tutorial notebooks above on Github, or run them yourself:
 # install the Nix package manager (Mac or Linux)
 curl -L https://nixos.org/nix/install | sh
 
-# optional: use my binary cache to skip building everything yourself
+# optional: use my binary cache to skip compiling everything
 nix-env -f '<nixpkgs>' -iA cachix
 cachix use jefdaj
 
