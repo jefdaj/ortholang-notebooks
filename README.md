@@ -4,8 +4,9 @@ OrthoLang Notebooks
 An example of how to publish reproducible [OrthoLang][ortholang] notebooks
 using [Nix][nix] and [jupyterWith][jupyterwith].
 
-Explore the example and tutorial notebooks above rendered on Github,
-or run the interactive versions on your computer:
+Explore the static example and tutorial notebooks rendered on Github above,
+or spin up the interactive versions on your computer. You should be able to exactly
+reproduce my Jupyter environment like this:
 
 ~~~{ .bash }
 # install the Nix package manager (Mac or Linux)
@@ -15,7 +16,7 @@ curl -L https://nixos.org/nix/install | sh
 nix-env -f '<nixpkgs>' -iA cachix
 cachix use jefdaj
 
-# download this code
+# download the ortholang-notebooks code and example-data
 git clone https://github.com/jefdaj/ortholang-notebooks
 
 # build and launch a local Jupyter server
